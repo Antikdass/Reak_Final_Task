@@ -1,0 +1,24 @@
+.info-block{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+.info-button{
+  border: 1px solid black;
+  margin: 10px 10px 0 0;
+  transition: 0.8s ease;
+  width: 20%;
+  height: 40px;
+  background: #bae8e8;
+  border-radius: 10px;
+  &:hover{
+    background: #ffffff;
+  }
+}
+  .img{
+    width: 200px;
+  }
+  .block-info{
+    text-align: center;
+  }
+}

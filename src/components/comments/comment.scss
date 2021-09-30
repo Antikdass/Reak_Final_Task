@@ -1,0 +1,20 @@
+.comment-main-block{
+display: flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+
+.comment-block{
+margin-top: 10px;
+  width: 80%;
+
+  border: 1px solid black;
+  background: #e3f6f5;
+  color: #272343;
+.comment-info{
+padding: 10px;
+    height: 100%;
+    width: 100%;
+}
+}
+}

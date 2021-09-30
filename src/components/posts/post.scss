@@ -1,0 +1,28 @@
+.post-block {
+  margin-top: 10px;
+  width: 80%;
+
+  border: 1px solid black;
+  background: #e3f6f5;
+  color: #272343;
+
+  .post-info {
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+  }
+
+  .comment-button {
+    border: 1px solid black;
+    margin: 10px;
+    transition: 0.8s ease;
+    width: 200px;
+    height: 40px;
+    background: #bae8e8;
+    border-radius: 10px;
+
+    &:hover {
+      background: #ffffff;
+    }
+  }
+}
